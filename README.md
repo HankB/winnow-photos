@@ -33,3 +33,10 @@ A second process is also needed that will
 1. Facilitate the deletion of any undesired images or incoming directories.
 
 Since my policy has been to preserve originals, the images in the receiving directory that correspond to images that have been processed will be preserved. Any images selected to not be deleted can be copied to the processed folder (for the first scenario.)
+
+## Errata
+
+* Files are on a Linux file server and I use a Linux desktop.
+* I write software so scripting/programming a solution is not out of the question. Before I start, I'd prefer to have a solid understanding of what I want to do and a strategy to accomplish it.
+* Just having written this README has helped me to clarify my thoughts and I will probably begin this manually. That may provide additional insight into the problem and solution and will actuallly get some of done. At best there will remain a lot of manual effort.
+* I'm using ZFS and snapshotting the filesystem that holds the photos so if I totally screw up, I should be able to recover. And I have a backup and will create an additional backup before unleashing any automation.
